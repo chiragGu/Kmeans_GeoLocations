@@ -15,7 +15,6 @@ na.omit(data2)
 complete.cases(data2)
 data2<-data2[complete.cases(data2), ]
 class(data2)
-df<-scale(data2)
 latlng<- cbind(lat=data2$lat,lng=data2$lng)
 
 ########################################
