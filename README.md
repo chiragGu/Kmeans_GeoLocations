@@ -41,4 +41,4 @@ It refers to the geographical (latitudinal and longitudinal) location of an Inte
 #### STEP:6
 
 > Visualising the clusters 
-> Function used is fviz_cluster() present in factoextra extra 
+> Function used is fviz_cluster() present in factoextra library
