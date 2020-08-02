@@ -32,10 +32,10 @@ print(km.res)
 #######################################
 # Joining the cluster no. with each entry
 FinalLatlng<- cbind(latlng, Cluster=km.res$cluster)
-FinalLatlng
+head(FinalLatlng,4)
 
 #######################################
-# km.res$size gives 4 clusters of size 52 (Cluster 1), 577(Cluster 2), 9 (Cluster 3), 14881 (Cluster 4)
+# km.res$size gives 4 clusters of size 52 (No.1), 577(No.2), 9 (No.3), 14881 (No.4)
 km.res$size
 
 #######################################
@@ -48,4 +48,4 @@ fviz_cluster(km.res,stand = TRUE,
              palette = "jco"
              )
 
-####################################### END
+#######################################END######################################
